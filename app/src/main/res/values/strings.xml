@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MyApplication5</string>
+    <string name="imagen_descripcion">Imagen para interactuar</string>
+    <string name="click_instruccion">Haz clic en la imagen</string>
+    <string name="abrir_reproductor">Abrir Reproductor</string>
+</resources>
