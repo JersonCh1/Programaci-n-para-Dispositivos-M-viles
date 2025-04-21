@@ -31,21 +31,21 @@ Desarrollar una aplicación que permita al usuario armar un pedido de comida de 
 
 app/
 ├── src/main/
-│   ├── java/com/example/configuradorcomida/
-│   │   ├── MainActivity.kt
-│   │   ├── InicioFragment.kt
-│   │   ├── SeleccionComidaFragment.kt
-│   │   ├── SeleccionExtrasFragment.kt
-│   │   └── ResumenPedidoFragment.kt
-│   └── res/
-│       ├── layout/
-│       │   ├── activity_main.xml
-│       │   ├── fragment_inicio.xml
-│       │   ├── fragment_seleccion_comida.xml
-│       │   ├── fragment_seleccion_extras.xml
-│       │   └── fragment_resumen_pedido.xml
-│       └── navigation/
-│           └── nav_graph.xml
+    ├── java/com/example/configuradorcomida/
+    │   ├── MainActivity.kt
+    │   ├── InicioFragment.kt
+    │   ├── SeleccionComidaFragment.kt
+    │   ├── SeleccionExtrasFragment.kt
+    │   └── ResumenPedidoFragment.kt
+    └── res/
+        ├── layout/
+        │   ├── activity_main.xml
+        │   ├── fragment_inicio.xml
+        │   ├── fragment_seleccion_comida.xml
+        │   ├── fragment_seleccion_extras.xml
+        │   └── fragment_resumen_pedido.xml
+        └── navigation/
+            └── nav_graph.xml
 
 ## Tecnologías utilizadas
 - Kotlin
