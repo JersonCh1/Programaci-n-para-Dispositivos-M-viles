@@ -29,6 +29,7 @@ Desarrollar una aplicación que permita al usuario armar un pedido de comida de 
 
 ## Estructura de archivos
 
+```
 app/
 ├── src/main/
     ├── java/com/example/configuradorcomida/
@@ -46,6 +47,7 @@ app/
         │   └── fragment_resumen_pedido.xml
         └── navigation/
             └── nav_graph.xml
+```
 
 ## Tecnologías utilizadas
 - Kotlin
