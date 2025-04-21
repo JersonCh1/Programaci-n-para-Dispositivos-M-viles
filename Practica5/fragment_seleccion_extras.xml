@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".SeleccionExtrasFragment">
+
+    <TextView
+        android:id="@+id/tvComidaSeleccionada"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Comida seleccionada: "
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Seleccione extras:"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp" />
+
+    <CheckBox
+        android:id="@+id/cbBebida"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bebida" />
+
+    <CheckBox
+        android:id="@+id/cbPapas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Papas fritas" />
+
+    <CheckBox
+        android:id="@+id/cbPostre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Postre" />
+
+    <Button
+        android:id="@+id/btnSiguiente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Siguiente"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>
